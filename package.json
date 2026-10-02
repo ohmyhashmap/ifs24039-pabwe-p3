@@ -1,0 +1,24 @@
+{
+  "name": "ifs24039-pabwe-p3-main",
+  "version": "1.0.0",
+  "description": "Praktikum 3 PABWE ini dibuat oleh:\r NIM: 11S24039\r Nama: Christian Alberto Sitohang\r Prodi: S1-Informatika\r # ifs24039-pabwe-p3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohmyhashmap/ifs24039-pabwe-p3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohmyhashmap/ifs24039-pabwe-p3/issues"
+  },
+  "homepage": "https://github.com/ohmyhashmap/ifs24039-pabwe-p3#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

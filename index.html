@@ -9,20 +9,6 @@
     content="AturAja: aplikasi web untuk mencatat pengeluaran harian, menyimpan bookmark favorit, dan mengerjakan kuis interaktif — dibangun dengan HTML, JavaScript, dan localStorage." />
   <title>AturAja — Praktikum 3 PABWE</title>
 
-  <!-- Tailwind CSS (CDN) -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ["DM Sans", "sans-serif"],
-            display: ["Outfit", "sans-serif"],
-          },
-        },
-      },
-    };
-  </script>
 
   <!-- Google Fonts -->
   <link rel="preconnect"
@@ -78,6 +64,10 @@
       min-height: 60px;
     }
   </style>
+
+  <!-- CSS Tailwind hasil build (dimuat setelah <style> agar urutan override sama seperti sebelumnya) -->
+  <link rel="stylesheet"
+    href="/assets/style.css" />
 </head>
 
 <body class="font-sans text-slate-800 min-h-screen">
@@ -931,7 +921,7 @@
     </div>
   </div>
 
-  <script src="/assets/script.js"></script>
+  <script src="/assets/script.js" defer></script>
 </body>
 
 </html>
